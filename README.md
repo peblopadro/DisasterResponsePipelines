@@ -23,7 +23,7 @@ Here's the file structure of the project:
 - README.md
 
 
-######################
+---
 
 # Disaster Response Pipeline Project
 
