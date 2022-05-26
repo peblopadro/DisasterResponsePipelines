@@ -66,6 +66,24 @@ def index():
                     'title': "Genre"
                 }
             }
+        },
+        {
+            'data': [
+                Bar(
+                    x=disaster,
+                    y=disaster_counts
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of Disaster',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Disaster"
+                }
+            }
         }
     ]
     
